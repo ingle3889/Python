@@ -2,15 +2,15 @@
 """
 Created on Sun Feb  6 22:11:33 2022
 
-@author: TiaaUser
+@author: Rampasad ingle
+
+Project name: Daily required task like creating folder, excel sheet also send email of daily activity
 """
 import webbrowser
 import re
 import os
 from datetime import datetime
 import time
-import openpyxl
-#import schedule
 import time
 import smtplib
 import ssl
@@ -18,7 +18,6 @@ from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-import requests
 
 
 print("....Starting.....")
