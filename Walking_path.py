@@ -93,7 +93,7 @@ def send_mail(log_path):
     subject = "Daily Activity report"                        #str(input("Enter the subject of email :"))
     body = "Please find the attachment of daily Python script run details"                                    #str(input("Enter the body of email :"))
     sender_email = "ingle38877@gmail.com"
-    password = "Ram@8793340769"
+    password = "" # password here
     receiver_email = "ingle3889@gmail.com"               #str(input("Enter Destination email id :"))
     
 
